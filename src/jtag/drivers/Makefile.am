@@ -192,6 +192,10 @@ if CMSIS_DAP_HID
 DRIVERFILES += %D%/cmsis_dap_usb_hid.c
 DRIVERFILES += %D%/cmsis_dap.c
 endif
+if DBU_CMSIS_DAP_HID
+DRIVERFILES += %D%/dbu_usb_hid.c
+DRIVERFILES += %D%/dbu_hid.c
+endif
 if CMSIS_DAP_USB
 DRIVERFILES += %D%/cmsis_dap_usb_bulk.c
 if !CMSIS_DAP_HID
