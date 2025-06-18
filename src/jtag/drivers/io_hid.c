@@ -39,11 +39,11 @@
 #include <jtag/tcl.h>
 #include <target/cortex_m.h>
 
-#include "dbu_hid.h"
+#include "io_hid.h"
 #include "libusb_helper.h"
 
 static const struct dbu_backend *const dbu_backends[] = {
-#if BUILD_DBU_CMSIS_DAP_HID == 1
+#if BUILD_IO_DAP == 1
 	&dbu_hid_backend,
 #endif
 };

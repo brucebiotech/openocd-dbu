@@ -150,7 +150,7 @@ m4_define([USB1_ADAPTERS],
 
 m4_define([HIDAPI_ADAPTERS],
 	[[[cmsis_dap], [CMSIS-DAP v1 compliant dongle (HID)], [CMSIS_DAP_HID]],
-	[[dbu], [dbu multi debugger], [DBU_CMSIS_DAP_HID]],
+	[[io_dap], [multi debugger], [IO_DAP]],
 	[[nulink], [Nu-Link Programmer], [HLADAPTER_NULINK]]])
 
 m4_define([HIDAPI_USB1_ADAPTERS],

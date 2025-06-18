@@ -28,7 +28,7 @@
 #include <hidapi.h>
 #include <helper/log.h>
 
-#include "dbu_hid.h"
+#include "io_hid.h"
 
 struct dbu_backend_data {
 	hid_device *dev_handle;
